@@ -1,0 +1,71 @@
+.board {
+	margin: 100px auto;
+	box-shadow: 0 0 15px #000;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	position: relative;
+}
+.cell {
+	position: relative;
+}
+.black {
+	background-color: #797979;
+}
+.white {
+	background-color: #fff;
+}
+.figure {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.king-white {
+	background: url('../image/king_white.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+.king-black {
+	background: url('../image/king_black.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+.queen-white {
+	background: url('../image/queen_white.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+.queen-black {
+	background: url('../image/queen_black.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+.rook-white {
+	background: url('../image/rook_white.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+.rook-black {
+	background: url('../image/rook_black.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+.knight-white {
+	background: url('../image/knight_white.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+.knight-black {
+	background: url('../image/knight_black.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+.bishop-white {
+	background: url('../image/bishop_white.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+.bishop-black {
+	background: url('../image/bishop_black.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+.pawn-white {
+	background: url('../image/pawn_white.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+.pawn-black {
+	background: url('../image/pawn_black.png') 0 0 no-repeat;
+	cursor: pointer;
+}
