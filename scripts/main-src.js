@@ -1,6 +1,7 @@
+ 
 var width       = null,
 	height      = null,
-	cell        = null,
+	//cell        = null,
 	board       = null,
 	param       = 0.7,
 	body        = document.querySelector('body'),
@@ -12,6 +13,7 @@ addFigure();
 
 // создание клеток
 function createCell() {
+	// сделать cell локальной, создавать каждый раз при создании клетки
 	var flag  = true,
 		board = document.querySelector('.board');
 	for (var i = 0; i < 8; i++) {
@@ -36,6 +38,8 @@ function createCell() {
 			flag = !flag;
 		}
 	}
+	cell.addEventListener('mouseover', function (){});
+	// return cell
 }
 
 // создание доски
